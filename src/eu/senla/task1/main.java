@@ -26,23 +26,23 @@ public class main {
 
         public static void main(String[] args) {
 
-//        byte a4 = ;
-//        int b4 = ;
-//        short c4 = ;
-//        long d4 = ;
-//        float e4 = ;
-//        double f4 = ;
-//        char g4 = ;
-//        boolean i4 = ;
-//
-//        String k5 = ;
-//        Byte a5 = ;
-//        Integer b5 = ;
-//        Short c5 = ;
-//        Long d5 = ;
-//        Float e5 = ;
-//        Double f5 = ;
-//        Character i5 = ;
+        byte a4 = ;
+        int b4 = ;
+        short c4 = ;
+        long d4 = ;
+        float e4 = ;
+        double f4 = ;
+        char g4 = ;
+        boolean i4 = ;
+
+        String k5 = ;
+        Byte a5 = ;
+        Integer b5 = ;
+        Short c5 = ;
+        Long d5 = ;
+        Float e5 = ;
+        Double f5 = ;
+        Character i5 = ;
 
             Integer i3 = 220;
             Integer in = new Integer(150);
