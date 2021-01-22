@@ -12,14 +12,23 @@ public class numbers {
     private boolean iBollean;
     private String kString;
     private String lString = new String();
+    //Оберточные переменные reference variables
+
+    private String referenceString;
+    private Byte referenceByte;
+    private Short referenceShort;
+    private Integer referenceInteger;
+    private Long referenceLong;
+    private Character referenceCharacter;
+    private Float referenceFloat;
+    private Double referenceDouble;
+    private Boolean referenceBoolean;
 
 
-    public numbers(byte a) {
-        this.a = a;
-    }
+
 
     //Геттеры и сеттеры получение и запись значений в приват переменных
-   //Get для получения из приватной переменной создаем методы get
+    //Get для получения из приватной переменной создаем методы get
 
 
     public byte getaByte() {
@@ -103,5 +112,85 @@ public class numbers {
 
     public void setlString(String lString) {
         this.lString = lString;
+    }
+
+    //get for reference variables
+
+
+    public String getReferenceString() {
+        return referenceString;
+    }
+
+    public Byte getReferenceByte() {
+        return referenceByte;
+    }
+
+    public Short getReferenceShort() {
+        return referenceShort;
+    }
+
+    public Integer getReferenceInteger() {
+        return referenceInteger;
+    }
+
+    public Long getReferenceLong() {
+        return referenceLong;
+    }
+
+    public Character getReferenceCharacter() {
+        return referenceCharacter;
+    }
+
+    public Float getReferenceFloat() {
+        return referenceFloat;
+    }
+
+    public Double getReferenceDouble() {
+        return referenceDouble;
+    }
+
+    public Boolean getReferenceBoolean() {
+        return referenceBoolean;
+    }
+    // set for reference variables
+
+
+    public void setReferenceString(String referenceString) {
+        this.referenceString = referenceString;
+    }
+
+    public void setReferenceByte(Byte referenceByte) {
+        this.referenceByte = referenceByte;
+    }
+
+    public void setReferenceShort(Short referenceShort) {
+        this.referenceShort = referenceShort;
+    }
+
+    public void setReferenceInteger(Integer referenceInteger) {
+        this.referenceInteger = referenceInteger;
+    }
+
+    public void setReferenceLong(Long referenceLong) {
+        this.referenceLong = referenceLong;
+    }
+
+    public void setReferenceCharacter(Character referenceCharacter) {
+        this.referenceCharacter = referenceCharacter;
+    }
+
+    public void setReferenceFloat(Float referenceFloat) {
+        this.referenceFloat = referenceFloat;
+    }
+
+    public void setReferenceDouble(Double referenceDouble) {
+        this.referenceDouble = referenceDouble;
+    }
+
+    public void setReferenceBoolean(Boolean referenceBoolean) {
+        this.referenceBoolean = referenceBoolean;
+    }
+
+    public void setaByte(int aByte) {
     }
 }
